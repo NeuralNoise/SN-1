@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.container {
+    min-height: -webkit-calc(100% - 100px);     /* Chrome */
+    min-height: -moz-calc(100% - 100px);     /* Firefox */
+    min-height: calc(100% - 100px);     /* native */
+}
+.footer {
+    position: relative;
+    clear:both;
+}
+/* Above code is to place footer at bottom of the page Hope It Works !*/
+/*Below is the extra css if needed*/
+.dotopspace{
+	margin-top: 1.3em;
+}
